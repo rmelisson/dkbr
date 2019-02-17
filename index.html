@@ -4,18 +4,35 @@
 <title>Lili Dodane</title>
 
 <style type="text/css">
-.container img {
-  width:50%;
+
+.container figure {
+}
+
+.container figcaption {
   display:block;
   margin-left:auto;
   margin-right:auto;
+  text-align: right;
 }
+
+.container img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
 .container p {
   text-align:center;
   display:block;
   margin-left:auto;
   margin-right:auto;
   font-size: 20;
+}
+
+.cartel p {
+  text-align:right;
+  font-size: 50;
 }
 
 </style>
@@ -26,9 +43,15 @@
 
 <body>
   <div class="container">
-    <img src="./liliO.jpg"/>
+
+    <figure>
+      <img src="./liliO.jpg"/>
+      <!-- <figcaption>Hache to hache nº2, Janvier 2017</figcation> -->
+      <p class="cartel">Hache to hache nº2, Janvier 2017</p>
+    </figure>
+
     <hr/>
-    <p>Lili Dodane, artiste.</p>
+    <p>Lili Dodane</p>
     <p>lilidodane@dkbr.fr</p>
     <hr/>
   </div>
